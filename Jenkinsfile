@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-java-git'
+            label 'docker-agent-java-git-maven'
             }
       }
     triggers {
